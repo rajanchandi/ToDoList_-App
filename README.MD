@@ -22,4 +22,5 @@ To rebuild and run:
 ```
 docker-compose down && docker-compose build && docker-compose up -d
 ```
+![WhatsApp Image 2020-04-09 at 3 10 41 PM](https://user-images.githubusercontent.com/57304597/82052778-34942a00-968a-11ea-929b-f5b6fa7483fb.jpeg)
 
