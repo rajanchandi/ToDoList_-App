@@ -1,25 +1,52 @@
-# ToDoList_-App
+# Todo List Web-App
+## [Live Version](http://todoapp.bhushankolhe.com/ "Todo List App")
+This is a Full-Stack Todo List web-App. This App is created using:
+* React.Js
+* HTML
+* CSS
+* Bootstrap
+* Node.JS
+* Express.Js
+* MySQL
 
-## Docker + React App + API Express + MySQL
+___
 
-This project implements a quick start up project using the facebook`s create-react-app as the app front end,
-a configured express API server connected to a MySQL database (easy to change) and optionally the phpMyAdmin
-preconfigured as the database admin. And even better, all stack works as Docker containers.
-
-After install Docker, run the following code to setup the development or production stack:
-
-````
-$ npm install -g create-react-app  
-
-$ docker-compose up
-````
-
-And that`s all, in the docker-compose.yml file its possible to change the enabled ports, database password, dev/production envoroments and other simple configs, change it as you need.
-
-
-To rebuild and run:
-
+## How To Use
+* Download and Install [NodeJS](https://nodejs.org/en/ "NodeJS").
+* Download nad Install Mysql Database. This can be done in various ways, I recommend Installing [WAMP](https://sourceforge.net/projects/wampserver/ "Wamp") server.
+* Clone the Repository
+```bash
+git clone https://github.com/chocoholic-me/React-Node.js-Express.js-Mysql-FullStack-TodoList-App.git
 ```
-docker-compose down && docker-compose build && docker-compose up -d
+* Goto the repository dirctory
+* Start WAMP server
+* Goto phpMyAdmin and login
+* Import the todoapp.sql Database
+* Install NodeJs Dependencies
+```bash
+npm install
 ```
-
+* Start NodeJs Server
+```bash
+nodemon index.js
+```
+* The node server should be running on localhost port 3030
+* Start a new terminal window
+* Change directory to client
+```bash
+cd client
+```
+* Install React Dependencies
+```bash
+npm install
+```
+* Start React Development Server
+```bash
+npm start
+```
+* The React Development Server should be running on [Localhost](http://localhost:3000/ 'localhost') port 3000
+___
+## Build React Static Files
+```bash
+npm run build
+``` 
