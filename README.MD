@@ -1,3 +1,5 @@
+![WhatsApp Image 2020-04-09 at 1 33 43 PM](https://user-images.githubusercontent.com/57304597/82047626-1c6bdd00-9681-11ea-89fd-7e7e9f8d5f19.jpeg)
+
 ## Docker + React App + API Express + MySQL
 
 This project implements a quick start up project using the facebook`s create-react-app as the app front end,
